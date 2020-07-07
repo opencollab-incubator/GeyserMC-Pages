@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy site to GitHub Pages
 
 on:
   push:
@@ -26,8 +26,13 @@ jobs:
         with:
           enable_cache: true
 
-      - name:
+      - name: Deploy site
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
+          # Reduce repo churn gh-pages will be a branch containing single orphan commit
+          force_orphan: true
+          user_name: "Open Collaboration[bot]"
+          user_email: "noreply@opencollab.dev"
+          commit_message: "Deploy: "
