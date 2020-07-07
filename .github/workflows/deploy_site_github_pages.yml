@@ -33,6 +33,6 @@ jobs:
           publish_dir: ./_site
           # Reduce repo churn gh-pages will be a branch containing single orphan commit
           force_orphan: true
-          user_name: "Open Collaboration[bot]"
+          user_name: "Open Collaboration"
           user_email: "noreply@opencollab.dev"
           commit_message: "Deploy: "
