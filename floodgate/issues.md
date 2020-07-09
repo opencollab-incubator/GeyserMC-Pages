@@ -18,17 +18,17 @@ This usually means one of two things:
 * You're trying to log in without an Xbox account. Floodgate requires an Xbox account to authenticate the Bedrock player.
 
 ## Whitelist command not working
-See [this page](FAQ#how-do-i-add-players-to-the-whitelist-when-using-floodgate).
+See [this page](faq#how-do-i-add-players-to-the-whitelist-when-using-floodgate). 
 
 ### -- MOVE TO AN FAQ PAGE? --
 
 ## Obtaining UUIDs for Floodgate players
-Check the server log for their UUIDs, or use [this method](FAQ#how-do-i-find-a-players-uuid-without-them-joining-when-using-floodgate).
+Check the server log for their UUIDs, or use [this method](faq#how-do-i-find-a-players-uuid-without-them-joining-when-using-floodgate).
 
 ### -- WILL BE MOVED TO GEYSER ADDONS --
 
 ## Using PlaceholderAPI
-If you're using the Bukkit version of Floodgate, download the Placeholder plugin [here](https://github.com/rtm516/FloodgatePlaceholders/). Using the placeholders shouldn't require additional setup other than having [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) installed. See the section above on installing Floodgate on backend servers if you wish to use this on BungeeCord.
+If you're using the Bukkit version of Floodgate, download the Placeholder plugin [here](https://github.com/rtm516/FloodgatePlaceholders/). Using the placeholders shouldn't require additional setup other than having [PlaceholderAPI](https://www.spigotmc.org/resources/6245/) installed. See the section above on installing Floodgate on backend servers if you wish to use this on BungeeCord.
 
 ## Using Skript
-If you're using the Bukkit version of Floodgate, there is an unofficial plugin that adds Skript support [here](https://github.com/DoctorMacc/floodgate-skript). 
+If you're using the Bukkit version of Floodgate, there is an unofficial plugin that adds Skript support [here](https://github.com/DoctorMacc/floodgate-skript).

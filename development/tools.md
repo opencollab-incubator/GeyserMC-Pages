@@ -2,6 +2,7 @@
 layout: default
 title: Tools
 parent: Development
+nav_order: 1
 ---
 # Tools
 ## Lombok

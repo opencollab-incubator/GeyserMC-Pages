@@ -61,7 +61,7 @@ If you have your configuration set up like this, put simply, it won't work. If a
 See [this page](Floodgate) for more information.
 
 ## Mojang Resetting Account Credentials
-This is unfortunately something we have no control over, and is most likely the case when you're running Geyser as a plugin on a server host or joining a friend far away from your location. If you're running Geyser locally, this should not happen to you, but what we recommend for servers is a plugin we make called [Floodgate](https://github.com/GeyserMC/Floodgate), which allows for Bedrock clients to join your server without needing a Java Edition account. Take a look [here](Floodgate) for more information. 
+This is unfortunately something we have no control over, and is most likely the case when you're running Geyser as a plugin on a server host or joining a friend far away from your location. If you're running Geyser locally, this should not happen to you, but what we recommend for servers is a plugin we make called [Floodgate](https://github.com/GeyserMC/Floodgate), which allows for Bedrock clients to join your server without needing a Java Edition account. Take a look [here]({{ site.baseurl }}/floodgate) for more information. 
 
 # Geyser Bukkit plugin does not load with CraftBukkit/other error with CraftBukkit
 
@@ -74,6 +74,6 @@ Disable `command-suggestions` in your Geyser config. This will stop the freezing
 Make sure you have set `ip-forward` to `true` in your BungeeCord `config.yml` and set `bungeecord` to `true` in each connected server's `spigot.yml`.
 
 # Floodgate
-For most floodgate issues see: [Floodgate: Known Issues/Caveats](Floodgate#known-issuescaveats).
+For most floodgate issues see: [Floodgate: Known Issues/Caveats]({{ site.baseurl }}/floodgate/issues).
 ## If you wish to use IP forwarding, please enable it in your BungeeCord config as well!
 It is likely you have enabled `send-floodgate-data` in your Floodgate config but either Floodgate isn't installed on the target server or you floodgate keys aren't the same between the installs of the plugin, please copy them so they all use the same set.

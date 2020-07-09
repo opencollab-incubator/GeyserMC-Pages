@@ -2,6 +2,7 @@
 layout: default
 title: Info
 parent: Development
+nav_order: 0
 ---
 # Info
 ## Compiling

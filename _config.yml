@@ -43,6 +43,9 @@ aux_links:
   "GitHub": "https://github.com/GeyserMC/Geyser"
   "Discord": "http://discord.geysermc.org/"
 
+# Remove .html
+permalink: /:categories/:year/:month/:day/:title
+
 # Build settings
 theme: just-the-docs
 plugins:
