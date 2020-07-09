@@ -22,14 +22,29 @@ title: Geyser Minecraft Proxy Bridge
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Revolutionize your Minecraft Server with Geyser by allowing Minecraft Bedrock Edition to join your Minecraft Java server.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/GeyserMC-Pages" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: geyser_mc
-github_username:  GeyserMC
 timezone: "Etc/UTC"
 
+# Theme settings
+logo: https://geysermc.org/img/geyser.png
+search_enabled: true
+footer_content: "Copyright &copy; 2020 GeyserMC. Distributed by an <a href=\"https://github.com/opencollab-incubator/GeyserMC-Pages/tree/master/LICENSE.txt\">MIT license.</a>"
+
+# GitHub edit link
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/opencollab-incubator/GeyserMC-Pages"
+gh_edit_branch: "master"
+gh_edit_view_mode: "tree"
+
+# Top right links
+aux_links:
+  "GitHub": "https://github.com/GeyserMC/Geyser"
+  "Discord": "http://discord.geysermc.org/"
+
 # Build settings
-theme: minima
+theme: just-the-docs
 plugins:
   - jekyll-feed
   - jekyll-gist
